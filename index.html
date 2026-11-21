@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Priyadharshini — freelance presentation, pitch deck and visual design.">
+<title>Priyadharshini | Presentation & Visual Designer</title>
+<style>
+:root{--yellow:#f2d15d;--cream:#fff9ed;--ink:#292725;--green:#20b783;--muted:#716b61;--white:#fffdfa;--line:#eee5d5}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.55}
+a{color:inherit}.wrap{width:min(1120px,90%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:23px 0;gap:20px}.brand{font-weight:900;letter-spacing:.11em;font-size:13px}.navlinks{display:flex;gap:25px;font-size:13px;font-weight:700}.navlinks a{text-decoration:none}.hero{background:var(--yellow);padding:76px 0 68px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}.eyebrow{font-size:12px;font-weight:900;letter-spacing:.17em;text-transform:uppercase}.hero h1{font-family:Georgia,serif;font-weight:400;font-size:clamp(48px,7vw,82px);line-height:.98;letter-spacing:-.045em;margin:22px 0}.hero h1 em{font-weight:400}.hero p{font-size:18px;max-width:520px;margin:0 0 27px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 21px;border-radius:30px;background:var(--green);color:white;text-decoration:none;border:0;font-weight:800;font-size:12px;letter-spacing:.06em;cursor:pointer}.btn.dark{background:var(--ink)}.art{min-height:310px;display:grid;place-items:center}.art-card{width:min(100%,390px);aspect-ratio:1.1;border:2px solid var(--ink);border-radius:48% 48% 24px 24px;background:var(--cream);display:grid;place-items:center;position:relative;transform:rotate(2deg)}.art-card:before{content:"";position:absolute;width:72%;height:66%;border:2px solid var(--ink);border-radius:18px;background:#fff;transform:rotate(-8deg);box-shadow:12px 12px 0 var(--green)}.art-copy{position:relative;z-index:1;text-align:center;transform:rotate(-8deg);font-family:Georgia,serif}.art-copy b{display:block;font-size:clamp(30px,4vw,48px);line-height:1.05}.art-copy span{font:800 11px Arial;letter-spacing:.2em}.section{padding:75px 0}.section h2{font:400 clamp(36px,5vw,54px)/1.05 Georgia,serif;margin:0 0 18px}.intro{max-width:720px;color:var(--muted);font-size:16px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:30px}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px}.service{background:var(--white);border-radius:22px;padding:27px;border:1px solid #f4eddf;min-height:190px}.num{color:#b18d19;font-size:12px;font-weight:900;letter-spacing:.1em}.service h3{font:400 25px Georgia,serif;margin:17px 0 9px}.service p{font-size:14px;color:var(--muted);margin:0}.band{background:var(--yellow);padding:50px 0}.band-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.band h2{font:400 clamp(34px,4vw,48px) Georgia,serif;margin:0}.band p{margin:0;max-width:560px}.portfolio{background:#fffdf8}.upload-panel{background:var(--cream);border:1px dashed #c9b98e;border-radius:22px;padding:25px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.upload-panel p{margin:5px 0 0;color:var(--muted);font-size:13px}.upload-panel input{display:none}.upload-label{cursor:pointer}.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;margin-top:22px}.project{background:var(--white);border:1px solid var(--line);border-radius:18px;overflow:hidden;min-width:0;display:flex;flex-direction:column}.project-body{padding:19px;display:flex;flex-direction:column;flex:1}.project-cover{width:100%;height:225px;object-fit:cover;object-position:center top;display:block;background:#eae5dc}.project-actions{margin-top:auto!important;padding-top:18px;flex-wrap:wrap}.project-actions a,.project-actions button{color:var(--ink);font:800 12px Arial,sans-serif;text-decoration:none;cursor:pointer}.project-actions .view-btn{background:var(--green);color:#fff;padding:9px 14px;border-radius:25px;border:none}.project-actions a{padding:9px 0}.viewer{border:0;border-radius:20px;padding:0;width:min(1000px,95vw);max-height:92vh;background:var(--white);box-shadow:0 25px 80px #0005}.viewer::backdrop{background:#151410b8}.viewer-head{display:flex;justify-content:space-between;align-items:center;padding:12px 18px;gap:15px}.viewer-head strong{font-size:15px}.viewer-head button{border:0;border-radius:24px;background:var(--ink);color:#fff;padding:8px 14px;cursor:pointer}.viewer iframe{display:block;width:100%;height:min(78vh,850px);border:0;background:#f4f4f4}.pdf-icon{width:46px;height:54px;border-radius:8px;background:#f8e8b1;display:grid;place-items:center;font-size:12px;font-weight:900;margin-bottom:15px}.project h3{font-size:16px;margin:0 0 4px;overflow-wrap:anywhere}.project small{color:var(--muted)}.project-actions{display:flex;gap:14px;margin-top:15px;font-size:12px;font-weight:800}.project-actions button{border:0;background:none;padding:0;text-decoration:underline;cursor:pointer;color:var(--ink);font:inherit}.empty{grid-column:1/-1;text-align:center;padding:35px;color:var(--muted);border:1px solid var(--line);border-radius:18px}.how{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}.step{padding:23px;background:#fff;border-radius:18px}.step b{font:400 27px Georgia,serif}.step p{font-size:14px;color:var(--muted);margin-bottom:0}.contact{background:var(--ink);color:var(--cream);padding:68px 0}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.contact h2{font:400 clamp(40px,5vw,58px)/1.02 Georgia,serif;margin:0 0 15px}.contact p{color:#d6d0c5}.contact-links{display:grid;gap:12px}.contact-links a{color:var(--yellow);font-weight:700;text-decoration:none;overflow-wrap:anywhere}.footer{padding:23px 0;font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:15px}.note{font-size:12px;color:var(--muted);margin-top:15px}
+@media(max-width:760px){.nav{align-items:flex-start}.navlinks{gap:12px;flex-wrap:wrap;justify-content:flex-end;font-size:11px}.hero{padding:55px 0}.hero-grid,.band-grid,.contact-grid{grid-template-columns:1fr}.art{min-height:230px}.services,.project-grid,.how{grid-template-columns:1fr}.section{padding:55px 0}.section-head{display:block}.upload-panel{align-items:flex-start}.footer{display:block}}
+.project-actions .view-btn{background:var(--green);color:white;border:0;text-decoration:none;padding:9px 14px;font:800 12px Arial,sans-serif;border-radius:25px}.project-actions a{text-decoration:none;font:800 12px Arial,sans-serif}
+</style>
+</head>
+<body>
+<header class="wrap nav">
+  <div class="brand">PRIYADHARSHINI <span style="color:#b18d19">/ DESIGN PORTFOLIO</span></div>
+  <nav class="navlinks"><a href="#services">SERVICES</a><a href="#work">MY WORK</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a></nav>
+</header>
+<main>
+<section class="hero">
+ <div class="wrap hero-grid">
+  <div><div class="eyebrow">Freelance presentation & visual designer</div>
+   <h1>Ideas, made<br><em>impossible</em><br>to ignore.</h1>
+   <p>I turn business ideas into clear, polished and engaging presentations that help people understand your value and take action.</p>
+   <div class="actions"><a class="btn dark" href="#work">VIEW MY WORK</a><a class="btn" href="#contact">LET’S WORK TOGETHER</a></div>
+  </div>
+  <div class="art" aria-label="Presentation design illustration"><div class="art-card"><div class="art-copy"><span>YOUR IDEA, BEAUTIFULLY TOLD</span><b>Make<br>your point.</b><span>STRATEGY · STORY · DESIGN</span></div></div></div>
+ </div>
+</section>
+<section class="section wrap" id="services">
+ <div class="eyebrow">What I can help with</div><h2>Design that gives<br>your ideas a voice.</h2>
+ <p class="intro">From a first business concept to a presentation for an important meeting, I create thoughtful visual communication with a clear message and consistent design.</p>
+ <div class="services">
+  <article class="service"><div class="num">01 / STORYTELLING</div><h3>Pitch decks</h3><p>Investor, startup, project and business pitch decks with a compelling flow and clear visual hierarchy.</p></article>
+  <article class="service"><div class="num">02 / PRESENTATION</div><h3>Business presentations</h3><p>Professional PowerPoint and Canva slides for proposals, reports, meetings and training.</p></article>
+  <article class="service"><div class="num">03 / BRAND CONTENT</div><h3>Company profiles</h3><p>Well-structured company introductions, capability decks and corporate profiles.</p></article>
+  <article class="service"><div class="num">04 / PRODUCT</div><h3>Product catalogues</h3><p>Clean product sheets, catalogues and promotional layouts that make products easy to explore.</p></article>
+  <article class="service"><div class="num">05 / MARKETING</div><h3>Marketing materials</h3><p>Flyers, social media creatives and branded communication for your business.</p></article>
+  <article class="service"><div class="num">06 / CUSTOM DESIGN</div><h3>Visual design support</h3><p>Custom-designed documents and visual assets tailored to your brief and audience.</p></article>
+ </div>
+</section>
+<section class="band" id="about"><div class="wrap band-grid"><h2>Good design is more than looking good.</h2><p>I’m Priyadharshini, a freelance designer focused on making information feel simple, organised and memorable. I value clear communication, attention to detail and designs that support your business goals. Tell me what you’re working on, and let’s shape it into a presentation you’re proud to share.</p></div></section>
+<section class="section portfolio" id="work"><div class="wrap">
+ <div class="section-head"><div><div class="eyebrow">Selected projects & samples</div><h2>My work speaks<br>for itself.</h2>
+ <!-- <p class="intro">Explore selected film pitch decks and company presentations. Click any project to read the full PDF.</p>] -->
+</div></div>
+  <div class="project-grid" id="projectGrid">
+   <article class="project"><img class="project-cover" src="assets/place-in-this-world.jpg" alt="Cover of A Place In This World" loading="lazy"><div class="project-body"><h3>A Place In This World</h3><small>Survival horror · Film pitch deck</small><div class="project-actions"><button type="button" class="view-btn" data-pdf="assets/A%20Place%20In%20This%20world.pdf" data-title="A Place In This World">VIEW PDF ↗</button><a href="assets/A%20Place%20In%20This%20world.pdf" target="_blank" rel="noopener">OPEN IN TAB</a><a href="assets/A%20Place%20In%20This%20world.pdf" download>DOWNLOAD ↓</a></div></div></article>
+   <article class="project"><img class="project-cover" src="assets/korean-crime-story.jpg" alt="Cover of A Korean Crime Story" loading="lazy"><div class="project-body"><h3>A Korean Crime Story</h3><small>Action / revenge · Film pitch deck</small><div class="project-actions"><button type="button" class="view-btn" data-pdf="assets/A%20KOREAN%20CRIME%20STORY.pdf" data-title="A Korean Crime Story">VIEW PDF ↗</button><a href="assets/A%20KOREAN%20CRIME%20STORY.pdf" target="_blank" rel="noopener">OPEN IN TAB</a><a href="assets/A%20KOREAN%20CRIME%20STORY.pdf" download>DOWNLOAD ↓</a></div></div></article>
+   <article class="project"><img class="project-cover" src="assets/iboy-company-pitch.jpg" alt="Cover of iBOY Company Pitch Deck" loading="lazy"><div class="project-body"><h3>iBOY Company Pitch Deck</h3><small>Technology & creative · Company presentation</small><div class="project-actions"><button type="button" class="view-btn" data-pdf="assets/iBOY%20Company%20Pitch%20Deck.pptx%20%281%29.pdf" data-title="iBOY Company Pitch Deck">VIEW PDF ↗</button><a href="assets/iBOY%20Company%20Pitch%20Deck.pptx%20%281%29.pdf" target="_blank" rel="noopener">OPEN IN TAB</a><a href="assets/iBOY%20Company%20Pitch%20Deck.pptx%20%281%29.pdf" download>DOWNLOAD ↓</a></div></div></article>
+  </div>
+ </div></section>
+<section class="section wrap"><div class="eyebrow">A simple process</div><h2>From brief to brilliant.</h2><div class="how">
+ <div class="step"><b>01. Understand</b><p>Share your objective, audience, content and preferred style.</p></div>
+ <div class="step"><b>02. Create</b><p>I shape the content into a clear layout and cohesive visual story.</p></div>
+ <div class="step"><b>03. Refine</b><p>We review the draft and polish the final presentation together.</p></div>
+ </div></section>
+<section class="contact" id="contact"><div class="wrap contact-grid"><div><div class="eyebrow">Have a project in mind?</div><h2>Let’s make<br>something great.</h2><p>For pitch decks, presentations, company profiles or other design projects, get in touch.</p></div><div class="contact-links"><div><small>EMAIL</small><br><a href="mailto:vgpriya1105@gmail.com?subject=Freelance%20Design%20Enquiry">vgpriya1105@gmail.com</a></div><div><small>LINKEDIN</small><br><a href="https://www.linkedin.com/" target="_blank" rel="noopener">www.linkedin.com/in/priyadharshini-g-4b7901233</a></div><div><small>WHATSAPP</small><br><a href="https://wa.me/" target="_blank" rel="noopener">+91 9629007548</a></div>
+  <!-- <p class="note" style="color:#c8c0b2">Replace the sample contact details with your real links before publishing.</p> -->
+</div></div></section>
+</main>
+<dialog class="viewer" id="pdfViewer" aria-label="PDF viewer"><div class="viewer-head"><strong id="viewerTitle">Project PDF</strong><button type="button" id="closeViewer">✕ CLOSE</button></div><iframe id="pdfFrame" title="Project PDF viewer" loading="lazy"></iframe></dialog>
+<footer class="wrap footer"><span>© <span id="year"></span> Priyadharshini · Freelance Design Portfolio</span><span>Thoughtful design. Clear communication.</span></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+const viewer=document.getElementById('pdfViewer');
+const frame=document.getElementById('pdfFrame');
+document.querySelectorAll('[data-pdf]').forEach(button=>{
+  button.addEventListener('click',()=>{
+    document.getElementById('viewerTitle').textContent=button.dataset.title;
+    frame.src=button.dataset.pdf+'#toolbar=1';
+    if(typeof viewer.showModal==='function')viewer.showModal();
+    else window.open(button.dataset.pdf,'_blank','noopener');
+  });
+});
+function closePDF(){viewer.close();frame.removeAttribute('src');}
+document.getElementById('closeViewer').addEventListener('click',closePDF);
+viewer.addEventListener('click',event=>{if(event.target===viewer)closePDF();});
+viewer.addEventListener('close',()=>frame.removeAttribute('src'));
+</script>
+</body></html>
